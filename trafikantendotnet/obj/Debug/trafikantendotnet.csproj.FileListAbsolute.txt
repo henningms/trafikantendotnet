@@ -1,5 +1,0 @@
-c:\users\henning\documents\visual studio 2010\Projects\trafikantendotnet\trafikantendotnet\bin\Debug\trafikantendotnet.dll
-c:\users\henning\documents\visual studio 2010\Projects\trafikantendotnet\trafikantendotnet\bin\Debug\trafikantendotnet.pdb
-c:\users\henning\documents\visual studio 2010\Projects\trafikantendotnet\trafikantendotnet\obj\Debug\ResolveAssemblyReference.cache
-c:\users\henning\documents\visual studio 2010\Projects\trafikantendotnet\trafikantendotnet\obj\Debug\trafikantendotnet.dll
-c:\users\henning\documents\visual studio 2010\Projects\trafikantendotnet\trafikantendotnet\obj\Debug\trafikantendotnet.pdb

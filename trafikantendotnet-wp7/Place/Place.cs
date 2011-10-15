@@ -8,7 +8,7 @@ using System.Text;
 namespace Trafikanten.Place
 {
     [DataContract]
-    public class Place : BaseModel
+    public partial class Place : BaseModel
     {
         private string _zone, _name, _district;
         private string _shortname;
