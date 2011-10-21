@@ -52,7 +52,19 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BaseModel.cs" />
+    <Compile Include="Common\ApiPaths.cs" />
     <Compile Include="Common\Line\Line.cs" />
+    <Compile Include="Common\QueryBuilder\IQueryBuilder.cs" />
+    <Compile Include="Common\QueryBuilder\Place\AutoCompleteQueryBuilder.cs" />
+    <Compile Include="Common\QueryBuilder\Place\FindMatchesByCountiesQueryBuilder.cs" />
+    <Compile Include="Common\QueryBuilder\Place\FindMatchesOfTypeQueryBuilder.cs" />
+    <Compile Include="Common\QueryBuilder\Place\FindMatchesQueryBuilder.cs" />
+    <Compile Include="Common\QueryBuilder\Place\FindPlaceBasedOnPlaceIdQueryBuilder.cs" />
+    <Compile Include="Common\QueryBuilder\Place\GetClosestStopsAdvancedByCoordinatesQueryBuilder.cs" />
+    <Compile Include="Common\QueryBuilder\Place\GetClosestStopsByCoordinatesQueryBuilder.cs" />
+    <Compile Include="Common\QueryBuilder\Place\GetClosestStopsQueryBuilder.cs" />
+    <Compile Include="Common\QueryBuilder\Place\GetLinesQueryBuilder.cs" />
+    <Compile Include="Common\QueryBuilder\Place\GetStopsByPlaceIdQueryBuilder.cs" />
     <Compile Include="Common\StopPoint\StopPoint.cs" />
     <Compile Include="Common\Stop\Stop.cs" />
     <Compile Include="Json\JsonHelper.cs" />

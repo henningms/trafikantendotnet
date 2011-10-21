@@ -11,12 +11,13 @@ using System.Windows.Media;
 using System.Windows.Media.Animation;
 using System.Windows.Shapes;
 using Trafikanten.Json;
+using Trafikanten.Common.QueryBuilder.Place;
 
 namespace Trafikanten.Places
 {
     public class Places
     {
-        public static void FindMatchesAsync(string query, Common.PlaceDelegate callback)
+        public static void FindMatchesAsync(FindMatchesQueryBuilder url, Common.PlaceDelegate callback)
         {
             try
             {
@@ -33,7 +34,7 @@ namespace Trafikanten.Places
                                                           callback(new ObservableCollection<Place.Place>(collection));
                                                       };
 
-                client.DownloadStringAsync(new Uri(""));
+                client.DownloadStringAsync(new Uri(url.Url));
             }
             catch (Exception ex)
             {              
