@@ -12,7 +12,12 @@ namespace Trafikanten.Json
         public static string Serialize<T>(T obj)
         {
             var ser = new DataContractJsonSerializer(typeof (T));
-            
+            var ms = new MemoryStream();
+
+            ser.WriteObject(ms, obj);
+
+            return Encoding.Unicode.GetString(ms.ToArray(), 0, ms.ToArray().Length);
+
         }
 
         public static T Deserialize<T>(string json)

@@ -9,7 +9,7 @@
     <ProjectTypeGuids>{C089C8C0-30E0-4E22-80C0-CE093F111A43};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>trafikantendotnet_wp7</RootNamespace>
+    <RootNamespace>Trafikanten</RootNamespace>
     <AssemblyName>trafikantendotnet-wp7</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <SilverlightVersion>$(TargetFrameworkVersion)</SilverlightVersion>
@@ -41,6 +41,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Servicemodel.Web" />
     <Reference Include="System.Windows" />
     <Reference Include="system" />
     <Reference Include="System.Core" />
@@ -50,9 +52,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BaseModel.cs" />
+    <Compile Include="Common\Line\Line.cs" />
+    <Compile Include="Common\StopPoint\StopPoint.cs" />
+    <Compile Include="Common\Stop\Stop.cs" />
     <Compile Include="Json\JsonHelper.cs" />
-    <Compile Include="Place\Methods.cs" />
-    <Compile Include="Place\Place.cs" />
+    <Compile Include="Common\Delegates.cs" />
+    <Compile Include="Places\Place\Place.cs" />
+    <Compile Include="Places\Places.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

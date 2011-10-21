@@ -1,0 +1,5 @@
+C:\Users\Henning\Documents\Visual Studio 2010\Projects\trafikantendotnet\trafikantendotnet-wp7\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Henning\Documents\Visual Studio 2010\Projects\trafikantendotnet\trafikantendotnet-wp7\Bin\Debug\trafikantendotnet-wp7.dll
+C:\Users\Henning\Documents\Visual Studio 2010\Projects\trafikantendotnet\trafikantendotnet-wp7\Bin\Debug\trafikantendotnet-wp7.pdb
+C:\Users\Henning\Documents\Visual Studio 2010\Projects\trafikantendotnet\trafikantendotnet-wp7\obj\Debug\trafikantendotnet-wp7.dll
+C:\Users\Henning\Documents\Visual Studio 2010\Projects\trafikantendotnet\trafikantendotnet-wp7\obj\Debug\trafikantendotnet-wp7.pdb

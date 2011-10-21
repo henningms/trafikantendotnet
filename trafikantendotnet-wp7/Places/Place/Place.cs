@@ -4,17 +4,18 @@ using System.Collections.ObjectModel;
 using System.Linq;
 using System.Runtime.Serialization;
 using System.Text;
+using Trafikanten.Common;
 
-namespace Trafikanten.Place
+namespace Trafikanten.Places.Place
 {
     [DataContract]
-    public partial class Place : BaseModel
+    public class Place : BaseModel
     {
         private string _zone, _name, _district;
         private string _shortname;
         private long _x, _y, _id;
         private int _type;
-        private IList<Stop> _stops;
+        private ObservableCollection<Stop> _stops;
             
         [DataMember]
         public string Zone
@@ -130,7 +131,7 @@ namespace Trafikanten.Place
         }
 
         [DataMember]
-        public IList<Stop> Stops
+        public ObservableCollection<Stop> Stops
         {
             get
             {
