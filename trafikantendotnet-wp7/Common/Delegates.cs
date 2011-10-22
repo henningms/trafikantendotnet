@@ -10,4 +10,7 @@ namespace Trafikanten.Common
 
     public delegate void LineDelegate(ObservableCollection<Line> result);
 
+    public delegate void RealTimeDataDelegate(ObservableCollection<Station> result);
+
+    public delegate void IsUniqueValidPlaceDelegate(Boolean? result);
 }
