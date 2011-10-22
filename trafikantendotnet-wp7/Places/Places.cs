@@ -17,6 +17,7 @@ namespace Trafikanten.Places
             {
                 if (url == null) throw new Exception("Cannot work with null-objects");
                 if (String.IsNullOrEmpty(url.Url)) throw new Exception("Url cannot be empty");
+
                 var client = new WebClient();
 
                 client.DownloadStringCompleted += (s, e) =>

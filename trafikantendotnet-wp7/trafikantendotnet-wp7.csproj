@@ -81,6 +81,7 @@
     <Compile Include="Common\QueryBuilder\Travel\GetTravelsBeforeByStopsQueryBuilder.cs" />
     <Compile Include="Common\QueryBuilder\Travel\GetTravelsBeforeQueryBuilder.cs" />
     <Compile Include="Common\QueryBuilder\Trip\GetTripQueryBuilder.cs" />
+    <Compile Include="Common\Station.cs" />
     <Compile Include="Common\StopPoint\StopPoint.cs" />
     <Compile Include="Common\Stop\Stop.cs" />
     <Compile Include="Json\JsonHelper.cs" />
