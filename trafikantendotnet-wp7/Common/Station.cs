@@ -191,7 +191,7 @@ namespace Trafikanten.Common
         {
             get
             {
-                return _arrivalPlatformName
+                return _arrivalPlatformName;
             }
             set
             {
