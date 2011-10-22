@@ -12,7 +12,7 @@ using System.Windows.Media.Animation;
 using System.Windows.Shapes;
 using Trafikanten.Places;
 
-namespace Trafikanten.Street
+namespace Trafikanten.Streets
 {
     [DataContract]
     public class Street : Place

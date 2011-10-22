@@ -90,7 +90,8 @@
     <Compile Include="Places\Places.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Realtime\Realtime.cs" />
-    <Compile Include="Street\Street.cs" />
+    <Compile Include="Streets\Street.cs" />
+    <Compile Include="Streets\Streets.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Travelstage\" />
