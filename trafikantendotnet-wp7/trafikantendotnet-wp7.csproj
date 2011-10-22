@@ -92,12 +92,12 @@
     <Compile Include="Realtime\Realtime.cs" />
     <Compile Include="Streets\Street.cs" />
     <Compile Include="Streets\Streets.cs" />
+    <Compile Include="Travelstage\Travelstage.cs" />
+    <Compile Include="Travel\Remark.cs" />
+    <Compile Include="Travel\Travel.cs" />
+    <Compile Include="Trip\Trip.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Travelstage\" />
-    <Folder Include="Travel\" />
-    <Folder Include="Trip\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\Silverlight for Phone\$(TargetFrameworkVersion)\Microsoft.Silverlight.$(TargetFrameworkProfile).Overrides.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\Silverlight for Phone\$(TargetFrameworkVersion)\Microsoft.Silverlight.CSharp.targets" />
   <ProjectExtensions />
