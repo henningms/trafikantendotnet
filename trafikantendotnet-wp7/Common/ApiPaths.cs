@@ -45,20 +45,20 @@ namespace Trafikanten.Common
 
         public class Travel
         {
-            public static string GetTravelsAfter = "Travel/GetTravelsAfter?{0}";
-            public static string GetTravelsBefore = "Travel/GetTravelsBefore?{0}";
-            public static string GetTravelsAfterByStops = "Travel/GetTravelsAfterByStops?{0}";
-            public static string GetTravelsBeforeByStops = "Travel/GetTravelsBeforeByStops?{0}";
-            public static string GetTravelsAdvanced = "Travel/GetTravelsAdvanced/?{0}";
-            public static string GetTravelsAdvancedByCoordinates = "Travel/GetTravelsAdvancedByCoordinates/?{0}";
+            public static string GetTravelsAfter = "Travel/GetTravelsAfter?";
+            public static string GetTravelsBefore = "Travel/GetTravelsBefore?";
+            public static string GetTravelsAfterByStops = "Travel/GetTravelsAfterByStops?";
+            public static string GetTravelsBeforeByStops = "Travel/GetTravelsBeforeByStops?";
+            public static string GetTravelsAdvanced = "Travel/GetTravelsAdvanced/?";
+            public static string GetTravelsAdvancedByCoordinates = "Travel/GetTravelsAdvancedByCoordinates/?";
         }
 
         public class Travelstage
         {
-            public static string GetArrivals = "Travelstage/GetArrivals/{0}";
-            public static string GetArrivalsAdvanced = "Travelstage/GetArrivalsAdvanced/{0}";
-            public static string GetDepartures = "Travelstage/GetDepartures/{0}";
-            public static string GetDeparturesAdvanced = "Travelstage/GetDeparturesAdvanced/{0}";
+            public static string GetArrivals = "Travelstage/GetArrivals/";
+            public static string GetArrivalsAdvanced = "Travelstage/GetArrivalsAdvanced/";
+            public static string GetDepartures = "Travelstage/GetDepartures/";
+            public static string GetDeparturesAdvanced = "Travelstage/GetDeparturesAdvanced/";
         }
 
         public class Trip
