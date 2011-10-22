@@ -105,7 +105,7 @@ namespace Trafikanten.Common.QueryBuilder.Place
             WalkingDistance = walkingDistance;
         }
 
-        public void BuildUrl()
+        public virtual void BuildUrl()
         {
             if (String.IsNullOrEmpty(PlaceId) || String.IsNullOrEmpty(Street)) return;
 

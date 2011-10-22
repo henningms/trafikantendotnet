@@ -95,7 +95,7 @@ namespace Trafikanten.Common.QueryBuilder.Travel
             BuildUrl();
         }
 
-        public new void BuildUrl()
+        public override void BuildUrl()
         {
             if (String.IsNullOrEmpty(Time)) return;
             if (FromStops == null || ToStops == null) return;

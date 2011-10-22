@@ -43,7 +43,7 @@ namespace Trafikanten.Common.QueryBuilder.Realtime
             MatchName = matchName;
         }
 
-        public void BuildUrl()
+        public virtual void BuildUrl()
         {
             if (String.IsNullOrEmpty(MatchName)) return;
 

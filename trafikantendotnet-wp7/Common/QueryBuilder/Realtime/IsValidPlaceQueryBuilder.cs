@@ -23,7 +23,7 @@ namespace Trafikanten.Common.QueryBuilder.Realtime
             MatchName = matchName;
         }
 
-        public new void BuildUrl()
+        public override void BuildUrl()
         {
             if (String.IsNullOrEmpty(MatchName)) return;
 

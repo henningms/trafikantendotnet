@@ -73,7 +73,7 @@ namespace Trafikanten.Common.QueryBuilder.Place
             Proposals = proposals;
         }
 
-        public void BuildUrl()
+        public virtual void BuildUrl()
         {
             var url = ApiPaths.ApiUrl;
             url += ApiPaths.Place.GetClosestStopsByCoordinates;

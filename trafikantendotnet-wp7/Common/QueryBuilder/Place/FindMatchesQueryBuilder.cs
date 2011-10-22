@@ -37,7 +37,7 @@ namespace Trafikanten.Common.QueryBuilder.Place
             MatchName = matchName;
         }
 
-        public void BuildUrl()
+        public virtual void BuildUrl()
         {
             var url = ApiPaths.ApiUrl;
 

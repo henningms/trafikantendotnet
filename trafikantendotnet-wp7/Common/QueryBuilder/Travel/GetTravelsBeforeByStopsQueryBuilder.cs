@@ -33,7 +33,7 @@ namespace Trafikanten.Common.QueryBuilder.Travel
             ToStops = tostops;
         }
 
-        public new void BuildUrl()
+        public override void BuildUrl()
         {
             if (String.IsNullOrEmpty(Time)) return;
             if (FromStops == null || ToStops == null) return;

@@ -24,7 +24,9 @@ namespace Trafikanten.Common.QueryBuilder.Trip
             Time = time;
         }
 
-        public new void BuildUrl()
+        
+
+        public override void BuildUrl()
         {
             if (String.IsNullOrEmpty(Time)) return;
 

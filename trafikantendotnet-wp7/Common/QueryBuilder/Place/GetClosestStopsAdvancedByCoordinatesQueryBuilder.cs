@@ -27,7 +27,7 @@ namespace Trafikanten.Common.QueryBuilder.Place
             }
         }
 
-        public new void BuildUrl()
+        public override void BuildUrl()
         {
             base.BuildUrl();
 

@@ -28,7 +28,7 @@ namespace Trafikanten.Common.QueryBuilder.Travelstage
             TransportTypes = transporttypes;
         }
 
-        public new void BuildUrl()
+        public override void BuildUrl()
         {
             if (String.IsNullOrEmpty(Time)) return;
 

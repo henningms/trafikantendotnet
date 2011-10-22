@@ -63,7 +63,7 @@ namespace Trafikanten.Common
 
         public class Trip
         {
-            public static string GetTrip = "Trip/GetTrip/{0}";
+            public static string GetTrip = "Trip/GetTrip/";
         }
     }
 }

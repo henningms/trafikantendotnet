@@ -73,7 +73,7 @@ namespace Trafikanten.Common.QueryBuilder.Travel
             To = to;
         }
 
-        public void BuildUrl()
+        public virtual void BuildUrl()
         {
             if (String.IsNullOrEmpty(Time)) return;
 

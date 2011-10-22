@@ -25,7 +25,7 @@ namespace Trafikanten.Common.QueryBuilder.Travel
             To = to;
         }
 
-        public new void BuildUrl()
+        public override void BuildUrl()
         {
             if (String.IsNullOrEmpty(Time)) return;
 
