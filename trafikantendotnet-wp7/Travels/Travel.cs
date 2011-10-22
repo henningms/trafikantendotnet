@@ -2,9 +2,9 @@
 using System.Collections.ObjectModel;
 using System.Net;
 using System.Runtime.Serialization;
-using Trafikanten.Travelstage;
+using Trafikanten.Travelstages;
 
-namespace Trafikanten.Travel
+namespace Trafikanten.Travels
 {
     [DataContract]
     public class Travel : BaseModel
@@ -12,7 +12,7 @@ namespace Trafikanten.Travel
         private int _j, _i;
         private DateTime _departureTime, _arrivalTime;
         private ObservableCollection<Remark> _remarks;
-        private ObservableCollection<Travelstage.Travelstage> _travelStages;
+        private ObservableCollection<Travelstage> _travelStages;
 
         [DataMember]
         public int j
@@ -85,7 +85,7 @@ namespace Trafikanten.Travel
         }
 
         [DataMember]
-        public ObservableCollection<Travelstage.Travelstage> TravelStages
+        public ObservableCollection<Travelstage> TravelStages
         {
             get
             {

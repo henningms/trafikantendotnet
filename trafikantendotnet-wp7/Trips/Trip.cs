@@ -3,7 +3,7 @@ using System.Runtime.Serialization;
 using Trafikanten.Common;
 
 
-namespace Trafikanten.Trip
+namespace Trafikanten.Trips
 {
     [DataContract]
     public class Trip : BaseModel

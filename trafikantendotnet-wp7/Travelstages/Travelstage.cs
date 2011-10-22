@@ -2,9 +2,9 @@
 using System.Net;
 using System.Runtime.Serialization;
 using Trafikanten.Common;
-using Trafikanten.Travel;
+using Trafikanten.Travels;
 
-namespace Trafikanten.Travelstage
+namespace Trafikanten.Travelstages
 {
     [DataContract]
     public class Travelstage : BaseModel
