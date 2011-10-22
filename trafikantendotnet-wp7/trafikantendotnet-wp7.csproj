@@ -93,10 +93,12 @@
     <Compile Include="Streets\Street.cs" />
     <Compile Include="Streets\Streets.cs" />
     <Compile Include="Travelstages\Travelstage.cs" />
+    <Compile Include="Travelstages\Travelstages.cs" />
     <Compile Include="Travels\Remark.cs" />
     <Compile Include="Travels\Travel.cs" />
     <Compile Include="Travels\Travels.cs" />
     <Compile Include="Trips\Trip.cs" />
+    <Compile Include="Trips\Trips.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\Silverlight for Phone\$(TargetFrameworkVersion)\Microsoft.Silverlight.$(TargetFrameworkProfile).Overrides.targets" />
