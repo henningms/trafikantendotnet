@@ -47,6 +47,22 @@ namespace Trafikanten.Common.QueryBuilder.Place
             }
         }
 
+        public AutoCompleteQueryBuilder()
+        {
+            
+        }
+
+        public AutoCompleteQueryBuilder(String matchName)
+        {
+            MatchName = matchName;
+        }
+
+        public AutoCompleteQueryBuilder(String matchName, String autoCompleteType)
+        {
+            MatchName = matchName;
+            AutoCompleteType = autoCompleteType;
+        }
+
         public void BuildUrl()
         {
             if (String.IsNullOrEmpty(MatchName)) return;

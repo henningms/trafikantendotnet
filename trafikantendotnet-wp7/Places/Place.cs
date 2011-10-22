@@ -6,7 +6,7 @@ using System.Runtime.Serialization;
 using System.Text;
 using Trafikanten.Common;
 
-namespace Trafikanten.Places.Place
+namespace Trafikanten.Places
 {
     [DataContract]
     public class Place : BaseModel

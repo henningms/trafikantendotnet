@@ -4,7 +4,6 @@ using System.Collections.ObjectModel;
 using System.Net;
 using System.Runtime.Serialization;
 using Trafikanten.Places;
-using Trafikanten.Places.Place;
 
 namespace Trafikanten.Common
 {

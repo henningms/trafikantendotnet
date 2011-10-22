@@ -85,7 +85,7 @@
     <Compile Include="Common\Stop\Stop.cs" />
     <Compile Include="Json\JsonHelper.cs" />
     <Compile Include="Common\Delegates.cs" />
-    <Compile Include="Places\Place\Place.cs" />
+    <Compile Include="Places\Place.cs" />
     <Compile Include="Places\Places.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
